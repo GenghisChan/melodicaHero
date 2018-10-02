@@ -7,8 +7,13 @@ function init(){
     console.log(e.keyCode)
 
     if (!audio) return;
-    audio.currentTime = 0
+    // audio.currentTime = 0
     audio.play()
 
   })
+}
+
+function createBar(){
+const bar = document.createElement('div')
+
 }
